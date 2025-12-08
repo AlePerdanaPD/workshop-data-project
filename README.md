@@ -16,19 +16,23 @@ Proyek latihan untuk memahami kolaborasi data menggunakan Git, GitHub, dan Kaggl
 - **Jumlah Data**: 150 sampel dengan 3 spesies (Iris-setosa, Iris-versicolor, Iris-virginica)
 
 ## Struktur Proyek
-workshop-data-project/
-├── data/
-│ ├── raw/
-│ └── processed/
-├── notebooks/
-├── README.md
+workshop-data-project/</br>
+├── data/</br>
+│ ├── raw/</br>
+│ └── processed/</br>
+├── notebooks/</br>
+├── README.md</br>
 └── requirements.txt
 
 
-## Analisis
-- [Notebook EDA di Kaggle](https://www.kaggle.com/aleperdana2/workshop-eda-iris)
-  - Exploratory Data Analysis (EDA) untuk Iris dataset
-  - Visualisasi dan statistik deskriptif
+## Analisis & Insight
+Notebook eksplorasi data lengkap tersedia di Kaggle:</br>
+- [EDA: Iris Species – Visualisasi & Storytelling](https://www.kaggle.com/username/nama-notebook)
+
+### Ringkasan Insight
+- Fitur petal sangat diskriminatif untuk membedakan spesies.
+- Iris setosa terpisah sempurna dari versicolor & virginica.
+- Tidak ada missing value → dataset siap untuk modeling.
 
 ## Cara Menggunakan Repository Ini
 1. Clone repository: `git clone <url-repository>`
