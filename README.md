@@ -16,13 +16,19 @@ Proyek latihan untuk memahami kolaborasi data menggunakan Git, GitHub, dan Kaggl
 - **Jumlah Data**: 150 sampel dengan 3 spesies (Iris-setosa, Iris-versicolor, Iris-virginica)
 
 ## Struktur Proyek
-workshop-data-project/</br>
-├── data/</br>
-│ ├── raw/</br>
-│ └── processed/</br>
-├── notebooks/</br>
-├── README.md</br>
-└── requirements.txt
+- `data/raw/`         : data mentah dari sumber eksternal (mis. iris.csv)
+- `data/interim/`     : data hasil langkah persiapan awal
+- `data/processed/`   : data siap pakai untuk training / evaluasi
+- `notebooks/`        : eksplorasi data & eksperimen awal
+- `src/config/`       : konfigurasi proyek (config, logging)
+- `src/data/`         : script loading, split, dan persiapan dataset
+- `src/models/`       : script training, evaluasi, dan prediksi model
+- `src/pipelines/`    : pipeline end-to-end untuk training
+- `src/utils/`        : fungsi pendukung (seed, metrics, dll.)
+- `experiments/`      : konfigurasi & catatan tiap eksperimen
+- `models_artifacts/` : checkpoint dan model final
+- `reports/`          : hasil analisis, gambar, dan ringkasan
+- `scripts/`          : script command-line (train, evaluate, dll.)
 
 
 ## Analisis & Insight
